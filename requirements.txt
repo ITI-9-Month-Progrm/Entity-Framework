@@ -1,0 +1,9 @@
+Day01:
+Packages should be installed to work with Entity Framework Core 5:
+
+1-install-package Microsoft.EntityFrameworkcore.sqlserver
+## For Migration:
+2-install-package Microsoft.EntityFrameworkcore.design
+3-install-package Microsoft.EntityFrameworkcore.tools
+4-Add-Migration "IntialCreate"
+5-update-database
