@@ -1,0 +1,62 @@
+2021-03-20 17:20:28.219 +02:00 [INF] MSBuild registered from C:\Program Files\dotnet\sdk\5.0.201\
+2021-03-20 17:20:28.288 +02:00 [INF] Registered 1 extensions:
+	Default extension
+2021-03-20 17:20:31.754 +02:00 [INF] Initializing upgrade step Select an entrypoint
+2021-03-20 17:20:31.761 +02:00 [INF] Setting entrypoint to only project in solution: F:\ITI\23- EF Core\Lab\Day1\HotelManagement-master\HotelManagement\HotelManagement.csproj
+2021-03-20 17:20:31.767 +02:00 [INF] Initializing upgrade step Select project to upgrade
+2021-03-20 17:20:31.774 +02:00 [INF] Setting only project in solution as the current project: F:\ITI\23- EF Core\Lab\Day1\HotelManagement-master\HotelManagement\HotelManagement.csproj
+2021-03-20 17:20:31.780 +02:00 [INF] Initializing upgrade step Back up project
+2021-03-20 17:20:33.779 +02:00 [INF] Applying upgrade step Back up project
+2021-03-20 17:20:37.280 +02:00 [INF] Backing up F:\ITI\23- EF Core\Lab\Day1\HotelManagement-master\HotelManagement to F:\ITI\23- EF Core\Lab\Day1\HotelManagement-master\HotelManagement.backup
+2021-03-20 17:20:37.786 +02:00 [WRN] Could not copy file F:\ITI\23- EF Core\Lab\Day1\HotelManagement-master\HotelManagement\log.txt due to 'The process cannot access the file 'F:\ITI\23- EF Core\Lab\Day1\HotelManagement-master\HotelManagement\log.txt' because it is being used by another process.'
+2021-03-20 17:20:42.068 +02:00 [INF] Project backed up to F:\ITI\23- EF Core\Lab\Day1\HotelManagement-master\HotelManagement.backup
+2021-03-20 17:20:42.075 +02:00 [INF] Upgrade step Back up project applied successfully
+2021-03-20 17:20:45.115 +02:00 [INF] Initializing upgrade step Convert project file to SDK style
+2021-03-20 17:20:46.860 +02:00 [INF] Applying upgrade step Convert project file to SDK style
+2021-03-20 17:20:46.874 +02:00 [INF] Converting project file format with try-convert
+2021-03-20 17:20:48.488 +02:00 [INF] [try-convert] F:\ITI\23- EF Core\Lab\Day1\HotelManagement-master\HotelManagement\HotelManagement.csproj contains an App.config file. App.config is replaced by appsettings.json in .NET Core. You will need to delete App.config and migrate to appsettings.json if it's applicable to your project.
+2021-03-20 17:20:51.943 +02:00 [INF] [try-convert] Conversion complete!
+2021-03-20 17:20:52.534 +02:00 [INF] Project file converted successfully! The project may require additional changes to build successfully against the new .NET target.
+2021-03-20 17:20:55.299 +02:00 [INF] Upgrade step Convert project file to SDK style applied successfully
+2021-03-20 17:21:12.440 +02:00 [INF] Initializing upgrade step Update TFM
+2021-03-20 17:21:14.130 +02:00 [INF] Applying upgrade step Update TFM
+2021-03-20 17:21:17.609 +02:00 [INF] Upgrade step Update TFM applied successfully
+2021-03-20 17:21:21.496 +02:00 [INF] Initializing upgrade step Update NuGet packages
+2021-03-20 17:21:24.012 +02:00 [INF] Marking package RestSharp for removal because it appears to be a transitive dependency
+2021-03-20 17:21:30.261 +02:00 [INF] Marking package Twilio, Version=3.6.11 for removal because it doesn't support the target framework but a newer version (5.56.0) does
+2021-03-20 17:21:30.266 +02:00 [WRN] Package Twilio has been upgraded across major versions (3 -> 5) which may introduce breaking changes
+2021-03-20 17:21:31.411 +02:00 [WRN] No version of WinForms-ModernUI found that supports net5.0-windows; leaving unchanged
+2021-03-20 17:21:31.442 +02:00 [INF] Reference to .NET Upgrade Assistant analyzer package (Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers, version 0.2.212405) needs added
+2021-03-20 17:21:33.195 +02:00 [INF] Adding Microsoft.Windows.Compatibility 5.0.2
+2021-03-20 17:21:33.199 +02:00 [INF] Packages to be removed:
+RestSharp, Version=104.4.0
+Twilio, Version=3.6.11
+2021-03-20 17:21:33.200 +02:00 [INF] Packages to be addded:
+Twilio, Version=5.56.0
+Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers, Version=0.2.212405
+Microsoft.Windows.Compatibility, Version=5.0.2
+2021-03-20 17:22:13.850 +02:00 [INF] Applying upgrade step Update NuGet packages
+2021-03-20 17:22:13.869 +02:00 [INF] Removing outdated package reference: RestSharp, Version=104.4.0
+2021-03-20 17:22:13.876 +02:00 [INF] Removing outdated package reference: Twilio, Version=3.6.11
+2021-03-20 17:22:13.887 +02:00 [INF] Adding package reference: Twilio, Version=5.56.0
+2021-03-20 17:22:13.892 +02:00 [INF] Adding package reference: Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers, Version=0.2.212405
+2021-03-20 17:22:13.900 +02:00 [INF] Adding package reference: Microsoft.Windows.Compatibility, Version=5.0.2
+2021-03-20 17:22:18.059 +02:00 [INF] Marking package System.Data.DataSetExtensions for removal because it appears to be a transitive dependency
+2021-03-20 17:22:18.229 +02:00 [WRN] No version of WinForms-ModernUI found that supports net5.0-windows; leaving unchanged
+2021-03-20 17:22:18.358 +02:00 [INF] Removing outdated package reference: System.Data.DataSetExtensions, Version=4.5.0
+2021-03-20 17:22:22.113 +02:00 [WRN] No version of WinForms-ModernUI found that supports net5.0-windows; leaving unchanged
+2021-03-20 17:22:22.263 +02:00 [INF] Upgrade step Update NuGet packages applied successfully
+2021-03-20 17:22:28.818 +02:00 [INF] Initializing upgrade step Add template files
+2021-03-20 17:22:28.849 +02:00 [INF] 0 expected template items needed
+2021-03-20 17:22:28.854 +02:00 [INF] Initializing upgrade step Upgrade app config files
+2021-03-20 17:22:28.883 +02:00 [INF] Found 0 app settings for upgrade: 
+2021-03-20 17:22:28.900 +02:00 [INF] 0 web page namespace imports need upgraded: 
+2021-03-20 17:22:28.904 +02:00 [INF] Initializing upgrade step Update C# source
+2021-03-20 17:22:31.882 +02:00 [INF] Initializing upgrade step Move to next project
+2021-03-20 17:22:34.250 +02:00 [INF] Applying upgrade step Move to next project
+2021-03-20 17:22:34.269 +02:00 [INF] Upgrade step Move to next project applied successfully
+2021-03-20 17:22:36.930 +02:00 [INF] Initializing upgrade step Finalize Solution
+2021-03-20 17:22:39.641 +02:00 [INF] Applying upgrade step Finalize Solution
+2021-03-20 17:22:39.646 +02:00 [INF] Upgrade step Finalize Solution applied successfully
+2021-03-20 17:22:47.189 +02:00 [INF] Upgrade has completed. Please review any changes.
+2021-03-20 17:22:47.196 +02:00 [INF] Saving upgrade progress file at F:\ITI\23- EF Core\Lab\Day1\HotelManagement-master\HotelManagement\.upgrade-assistant
